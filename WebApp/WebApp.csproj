@@ -58,6 +58,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="FreeCode.WebApp, Version=0.1.7205.21979, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeCode.WebApp.0.1.7205.21979\lib\net472\FreeCode.WebApp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -189,6 +192,9 @@
     <Content Include="SamplePages\P02_DDLofAlbums.aspx" />
     <Content Include="SamplePages\P03_CGVofAlbums.aspx" />
     <Content Include="SamplePages\P04_CGVofTracks.aspx" />
+    <Content Include="SamplePages\P05_DDLofArtistsToCGVofAlbumsByArtistId.aspx" />
+    <Content Include="SamplePages\P06_AlbumCRUD.aspx" />
+    <Content Include="SamplePages\P07_TrackCRUD.aspx" />
     <Content Include="SamplePages\TestPage1.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -312,6 +318,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UserControls\MessageUserControl.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -490,6 +497,27 @@
     </Compile>
     <Compile Include="SamplePages\P04_CGVofTracks.aspx.designer.cs">
       <DependentUpon>P04_CGVofTracks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P05_DDLofArtistsToCGVofAlbumsByArtistId.aspx.cs">
+      <DependentUpon>P05_DDLofArtistsToCGVofAlbumsByArtistId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P05_DDLofArtistsToCGVofAlbumsByArtistId.aspx.designer.cs">
+      <DependentUpon>P05_DDLofArtistsToCGVofAlbumsByArtistId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P06_AlbumCRUD.aspx.cs">
+      <DependentUpon>P06_AlbumCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P06_AlbumCRUD.aspx.designer.cs">
+      <DependentUpon>P06_AlbumCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P07_TrackCRUD.aspx.cs">
+      <DependentUpon>P07_TrackCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P07_TrackCRUD.aspx.designer.cs">
+      <DependentUpon>P07_TrackCRUD.aspx</DependentUpon>
     </Compile>
     <Compile Include="SamplePages\TestPage1.aspx.cs">
       <DependentUpon>TestPage1.aspx</DependentUpon>
